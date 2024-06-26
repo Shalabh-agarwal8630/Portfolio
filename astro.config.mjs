@@ -1,4 +1,11 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+// Astro configuration
+export default defineConfig({
+  // Other configuration options...
+  vite: {
+    ssr: {
+      noExternal: ['sharp'],
+    },
+  },
+});

@@ -10,13 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "4.6.3",
     "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.3"
+    "astro": "4.6.3",
+    "typescript": "^5.0.0"
   },
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "sharp": "^0.33.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
